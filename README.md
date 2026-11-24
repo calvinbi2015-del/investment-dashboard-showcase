@@ -43,14 +43,17 @@ That pays off in three ways:
 
 Beyond single names, the dashboard tracks the wider context:
 
+- **Macro series** — rates, inflation, FX majors and precious metals from FRED,
+  with an early-warning panel for growth and inflation surprises, and a
+  multi-select chart that overlays any combination of series on a shared axis
 - **GPU pricing** — real-time cloud compute pricing across providers, tracked as a
   time series rather than a one-off snapshot
 - **AI model rankings** — intelligence index vs. cost-per-task, with a Pareto
   frontier separating US and Chinese model families
-- **Macro series** — rates, inflation, FX majors and precious metals, pulled from
-  FRED and plotted on a shared axis for side-by-side comparison
 - **Non-standard datasets** — alt-data feeds and custom series that don't fit a
   standard financial data model
+
+![Macro](screenshots/macro.png)
 
 ![Insights](screenshots/topics.png)
 
