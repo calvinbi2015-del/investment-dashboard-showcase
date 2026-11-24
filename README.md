@@ -53,9 +53,6 @@ Beyond single names, the dashboard tracks the wider context:
 - **Non-standard datasets** — alt-data feeds and custom series that don't fit a
   standard financial data model
 
-![Macro](screenshots/macro.png)
-
-![Insights](screenshots/topics.png)
 
 ---
 
@@ -76,11 +73,6 @@ Eight self-built factors, with the formula and the backtest both visible:
 
 Each comes with IC / RankIC analysis, a five-quintile backtest, and a decay curve
 across horizons from 1 to 60 days.
-
-**ROE (point-in-time).** A fundamentals factor aligned by **SEC filing date**, not
-period end. A Q3 report filed on 16 November is not used in a 15 November
-cross-section — the backtest cannot see the future. Negative-equity names are
-excluded, since a negative denominator would produce a positive ROE.
 
 ---
 
